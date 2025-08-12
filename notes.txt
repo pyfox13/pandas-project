@@ -1,0 +1,29 @@
+Pandas: It's actually open-source library that's 
+used for data manipulation and analysis.
+library link: https://pandas.pydata.org/
+
+# we shall create a folder named pandas_project
+# inside that folder, we shall create two 
+more folders named data and notebooks
+# we shall create virtual environment, activate it and install
+jupyterlab pandas numpy matplotlib 
+
+
+# open terminal
+# go to desktop
+ mkdir pandas_project # creating dir pandas_project
+ cd pandas_project # going inside pandas_project
+ mkdir data notebooks # creating dirs data and notebooks
+ python3 venv -m venv
+venv\Scripts\activate
+pip install jupyterlab pandas numpy matplotlib
+
+
+#finally to start jupyter lab
+jupyter lab 
+
+Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned
+
+
+go to github 
+create repository named pandas-project
