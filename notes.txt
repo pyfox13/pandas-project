@@ -26,4 +26,6 @@ Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned
 
 
 go to github 
-create repository named pandas-project
+create repository named pandas-
+
+py -3 -m venv venv
